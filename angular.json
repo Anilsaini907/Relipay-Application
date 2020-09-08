@@ -23,10 +23,12 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+            "styles": [ 
+              "./node_modules/angular-bootstrap-md/assets/scss/bootstrap/bootstrap.scss", 
+               "./node_modules/animate.css/animate.css", 
+              "src/styles.css"], 
+               "scripts": [ "./node_modules/jquery/dist/jquery.min.js"
+                          ]
           },
           "configurations": {
             "production": {
@@ -119,6 +121,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "PayApp"
+    }
+  },
+  "defaultProject": "PayApp",
+  "cli": {
+    "analytics": false
+  }
 }

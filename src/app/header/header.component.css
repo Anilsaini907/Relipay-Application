@@ -1,0 +1,48 @@
+.view {
+    background: url("https://mdbootstrap.com/img/Photos/Others/img (40).jpg")no-repeat center center;
+    background-size: cover;
+    
+}
+links{
+   
+    padding:7px;
+    margin:5px;
+   
+}
+.dropdown a{
+    color: black;
+    font-family: Verdana;
+font-weight: bold;
+}
+.dropdown ul li a{
+    font-weight: normal;
+}
+
+.dropdown {
+    margin:23px;
+    padding:5px;
+}
+.dropdown {
+    display: inline;
+    position: relative;
+   
+ }
+.mydropdowncss:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+
+.top-nav-collapse {
+    background-color:black;
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
