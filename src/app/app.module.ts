@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md'; 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AdminpanelComponent } from './adminpanel/adminpanel.component';
+import { DMTModule } from './DMTmodule/dmt.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,7 @@ import { AdminpanelComponent } from './adminpanel/adminpanel.component';
     AdminpanelComponent
   ],
   imports: [
-    BrowserModule, BrowserAnimationsModule ,
+    BrowserModule, BrowserAnimationsModule ,DMTModule,
     AppRoutingModule,MDBBootstrapModule.forRoot()
   ],
   providers: [],

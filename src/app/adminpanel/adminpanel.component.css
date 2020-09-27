@@ -4,6 +4,9 @@
     width: 400px;
    
 }
+button {
+    font-weight: bold;
+}
 .form-header {
     margin-left: 85px;
     margin-top: 10px;

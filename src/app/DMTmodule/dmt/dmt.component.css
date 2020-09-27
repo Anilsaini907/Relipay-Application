@@ -1,0 +1,50 @@
+#formid{
+    width: 500px;
+    margin:30px auto;
+}
+
+h2{ margin-top:20px;
+    text-align: center;
+}
+label{
+    font-weight: bold;
+}
+pre{
+    font-size:20px;
+    font-weight: 900;
+    margin-left: 200px;
+}
+
+#outerDiv{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 520px;
+    margin:30px auto;
+}
+.input-group {
+    display: inline-table;
+    vertical-align: middle;
+}
+    .input-group-addon,
+    .input-group-btn,
+    .form-control {
+        width: auto !important;
+        display: inline-table;
+    vertical-align: middle;
+    }
+    .input-group{
+        margin-top: 20px;
+        margin-left: 15px;
+
+    }
+    .input-group button{
+        margin-bottom: 5px;
+        margin-left: 50px;
+    }
+    .input-group label{
+        margin-left: -120px;
+    }
+#formGroupExampleInput {
+width: 400px;
+}

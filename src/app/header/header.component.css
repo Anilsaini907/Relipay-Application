@@ -17,10 +17,14 @@ font-weight: bold;
 .dropdown ul li a{
     font-weight: normal;
 }
+.dropdown-menu li {
+width: 100%;
+}
 
 .dropdown {
     margin:15px;
     padding:5px;
+    width: auto;
 }
 .dropdown {
     display: inline;
